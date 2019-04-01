@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 1 Factoriel", "Уроци 12 и 13, 1.12.2018\12 - 1 Factoriel.csproj", "{2679255E-FECF-4665-8096-7894521C6AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 2 Sum of digits of numbers", "Sum of digits of numbers\12 - 2 Sum of digits of numbers.csproj", "{2FEB2321-1BCD-4124-AD8B-9FE0B2E8955A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 3 Prime number", "Prime number\12 - 3 Prime number.csproj", "{A4028F69-19BF-49B5-8F47-2326053DB107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 4 Even number with check", "Even number with check\12 - 4 Even number with check.csproj", "{7C472FB8-4EF8-48C0-BA15-CD71EF4A5386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 5 Fibonacci sequence", "Fibonacci sequence\12 - 5 Fibonacci sequence.csproj", "{99223294-6721-4567-920A-D493911F6061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 6 Pyramid of numbers", "Pyramid of numbers\12 - 6 Pyramid of numbers.csproj", "{98C834FD-32E2-449E-993B-CC1D5DFE5847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - 7 Matrix of numbers", "Matrix of numbers\12 - 7 Matrix of numbers.csproj", "{36242BB8-475A-4195-B5F3-3A5E4195146A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2679255E-FECF-4665-8096-7894521C6AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2679255E-FECF-4665-8096-7894521C6AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2679255E-FECF-4665-8096-7894521C6AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2679255E-FECF-4665-8096-7894521C6AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEB2321-1BCD-4124-AD8B-9FE0B2E8955A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEB2321-1BCD-4124-AD8B-9FE0B2E8955A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEB2321-1BCD-4124-AD8B-9FE0B2E8955A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEB2321-1BCD-4124-AD8B-9FE0B2E8955A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4028F69-19BF-49B5-8F47-2326053DB107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4028F69-19BF-49B5-8F47-2326053DB107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4028F69-19BF-49B5-8F47-2326053DB107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4028F69-19BF-49B5-8F47-2326053DB107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C472FB8-4EF8-48C0-BA15-CD71EF4A5386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C472FB8-4EF8-48C0-BA15-CD71EF4A5386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C472FB8-4EF8-48C0-BA15-CD71EF4A5386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C472FB8-4EF8-48C0-BA15-CD71EF4A5386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99223294-6721-4567-920A-D493911F6061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99223294-6721-4567-920A-D493911F6061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99223294-6721-4567-920A-D493911F6061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99223294-6721-4567-920A-D493911F6061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C834FD-32E2-449E-993B-CC1D5DFE5847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C834FD-32E2-449E-993B-CC1D5DFE5847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C834FD-32E2-449E-993B-CC1D5DFE5847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C834FD-32E2-449E-993B-CC1D5DFE5847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36242BB8-475A-4195-B5F3-3A5E4195146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36242BB8-475A-4195-B5F3-3A5E4195146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36242BB8-475A-4195-B5F3-3A5E4195146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36242BB8-475A-4195-B5F3-3A5E4195146A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBF7C2D-1A7F-4194-955C-FDF6CB6954C6}
+	EndGlobalSection
+EndGlobal

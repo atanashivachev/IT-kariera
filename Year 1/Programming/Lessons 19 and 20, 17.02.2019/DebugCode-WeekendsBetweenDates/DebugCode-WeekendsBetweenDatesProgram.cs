@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DebugCode_WeekendsBetweenDates
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* code before:
+            var startDate = DateTime.ParseExact(Console.ReadLine(),
+            "dd.m.yyyy", CultureInfo.InvariantCulture);
+            var endDate = DateTime.ParseExact(Console.ReadLine(),
+                "dd.m.yyyy", CultureInfo.InvariantCulture);
+            var holidaysCount = 0;
+            for (var date = startDate; date <= endDate; date.AddDays(1))
+                if (date.DayOfWeek == DayOfWeek.Saturday &&
+                    date.DayOfWeek == DayOfWeek.Sunday) holidaysCount++;
+            Console.WriteLine(holidaysCount);
+            */
+
+            var startDate = DateTime.ParseExact(Console.ReadLine(),
+                            "dd.MM.yyyy", CultureInfo.InvariantCulture);
+            var endDate = DateTime.ParseExact(Console.ReadLine(),
+                          "dd.MM.yyyy", CultureInfo.InvariantCulture);
+
+            int holidaysCount = 0;
+
+            for (var date = startDate; date <= endDate; date = date.AddDays(1))
+            {
+                if (date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday)
+                {
+                    holidaysCount++;
+                }
+            }
+                
+            Console.WriteLine(holidaysCount);
+        }
+    }
+}
