@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - FreightTransport", "1 - FreightTransport\1 - FreightTransport.csproj", "{4A707257-48F2-4EE9-9408-AAE410DB7AF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - StarWars-From2To4", "2 - StarWars-From2To4\2 - StarWars-From2To4.csproj", "{4291B7D7-827F-4161-9D9E-247BA488A3CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 STAR - StarWarsEmpire", "3 STAR - StarWarsEmpire\3 STAR - StarWarsEmpire.csproj", "{8ADC74E6-EE7B-4C1A-93C2-126D98646E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4A707257-48F2-4EE9-9408-AAE410DB7AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A707257-48F2-4EE9-9408-AAE410DB7AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A707257-48F2-4EE9-9408-AAE410DB7AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4291B7D7-827F-4161-9D9E-247BA488A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4291B7D7-827F-4161-9D9E-247BA488A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4291B7D7-827F-4161-9D9E-247BA488A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4291B7D7-827F-4161-9D9E-247BA488A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADC74E6-EE7B-4C1A-93C2-126D98646E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADC74E6-EE7B-4C1A-93C2-126D98646E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADC74E6-EE7B-4C1A-93C2-126D98646E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADC74E6-EE7B-4C1A-93C2-126D98646E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
