@@ -35,7 +35,7 @@ namespace bonapetit
             get { return name; }
             set
             {
-                if (value.Count(x => (x < 48 || x > 57) && (x < 65 || x > 90) && (x < 97 || x > 122)) > 0 || value.Length < 3)
+                if (value.Length < 3)
                 { throw new ArgumentException("Invalid Command!"); }
 
                 name = value;
@@ -47,7 +47,7 @@ namespace bonapetit
             get { return weight; }
             set
             {
-                if (value < 1 || value > 1000)
+                if (value < 1)
                 { throw new ArgumentException("Invalid Command!"); }
 
                 weight = value;
@@ -56,10 +56,7 @@ namespace bonapetit
 
         public double Price
         {
-            get
-            {
-                return price;
-            }
+            get { return price; }
             set
             {
                 if (value < 0.01)

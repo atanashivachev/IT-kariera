@@ -12,17 +12,17 @@ namespace bonapetit
         private string type;
         private double price;
 
-        private int ordered;
-        private List<Product> Products;
+        private int timesOrdered;
+        private List<Product> products;
 
         public void AddProduct (Product productToAdd)
         {
-            Products.Add(productToAdd);
+            products.Add(productToAdd);
         }
 
         public bool ContainsProduct(string productName)
         {
-            return Products.Count(x => x.Name == productName) > 0;
+            return products.Count(p => p.Name == productName) > 0;
         }
 
         public void PrintRecipe()
@@ -31,19 +31,19 @@ namespace bonapetit
             Console.WriteLine($"{Name} RECIPE");
             Console.WriteLine(new string('-', 25));
 
-            Products.ForEach(p => Console.WriteLine(p.ToString()));
+            products.ForEach(p => Console.WriteLine(p.ToString()));
 
             Console.WriteLine(new string('-', 25));
         }
 
         public void Order()
         {
-            Ordered++;
+            TimesOrdered++;
         }
 
         public static Meal GetSpecialty(Dictionary<string, Meal> meals)
         {
-            return meals.Values.OrderByDescending(m => m.Ordered).First();
+            return meals.Values.OrderByDescending(m => m.TimesOrdered).First();
         }
 
         public static Meal RecommendByPrice (double price, Dictionary<string, Meal> meals)
@@ -63,8 +63,8 @@ namespace bonapetit
         { 
             Name = name;
             Type = type;
-            Products = products;
-            Ordered = 0;
+            this.products = products;
+            TimesOrdered = 0;
         }
 
         public override string ToString()
@@ -77,7 +77,7 @@ namespace bonapetit
             get { return name; }
             set
             {
-                if (value.Count(x => (x < 48 || x > 57) && (x < 65 || x > 90) && (x < 97 || x > 122)) > 0 || value.Length < 3)
+                if (value.Length < 3)
                 { throw new ArgumentException("Invalid Command!"); }
 
                 name = value;
@@ -88,7 +88,7 @@ namespace bonapetit
             get { return type; }
             set
             {
-                if (value.Count(x => (x < 48 || x > 57) && (x < 65 || x > 90) && (x < 97 || x > 122)) > 0 || value == "")
+                if (value == "")
                 { throw new ArgumentException("Invalid Command!"); }
 
                 type = value;
@@ -99,16 +99,16 @@ namespace bonapetit
         {
             get
             {
-                price = Products.Sum(x => x.Price) + (30 * 1.0 / 100 * Products.Sum(x => x.Price));
+                price = products.Sum(x => x.Price) + (30 * 1.0 / 100 * products.Sum(x => x.Price));
                 return price;
             }
             private set { price = value; }
         }
 
-        public int Ordered
+        public int TimesOrdered
         {
-            get { return ordered; }
-            private set { ordered = value; }
+            get { return timesOrdered; }
+            private set { timesOrdered = value; }
         }
     }
 }
